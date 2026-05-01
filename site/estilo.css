@@ -1,0 +1,49 @@
+body 
+{
+    background-color: black;
+     font-family: 'VCR', monospace;
+    src: url('fonts/VCR_OSD_MONO.ttf') format('truetype');
+}
+@font-face{
+      font-family: 'VCR';
+    src: url('fonts/VCR_OSD_MONO.ttf') format('truetype');
+}
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+
+h1 {
+     font-family: 'VCR';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+     text-align: center;
+    color: red;
+}
+.img1 {
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+}
+.img2 {
+  width: 350px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2; 
+}
+
+
+p {
+     font-family: 'VCR';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+     text-align: center;
+    color: red;
+}
+
