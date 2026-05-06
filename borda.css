@@ -1,7 +1,8 @@
 .caixa{
 background-color: purple;
+align-items: center;
 width: 400px;
-height: 1020px;
+height: 450px;
 border: 15px solid black;
 border-radius: 20px;
 padding: 15px;
@@ -9,16 +10,23 @@ margin: 30px;
 text-align: center;
 color:yellow;
 text-decoration-color: black;
+text-aling:center;
+width: 900px;
+  word-wrap: break-word;     /* quebra palavras grandes */
+  overflow-wrap: break-word; /* versão mais atual */
 }
 .kira{
     position: absolute;
-    left:600px ;
+    right:40px ;
+    width: 200px;
 z-index: 2;
-top: 40px ;
+top: 200px ;
 border: 15px solid black;
 }
-.fundo{
-    top: 1;
-   z-index: -1;
- 
+body {
+  background-image: url("https://preview.redd.it/yoshikage-kiras-tie-pattern-from-jojos-bizarre-adventure-v0-2jl5dnfww5f41.png?width=1080&crop=smart&auto=webp&s=829a622e2b154e7b59828bb7a2353681a5a94d9b");
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Evita repetir a imagem */
 }
+
