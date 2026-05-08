@@ -1,0 +1,43 @@
+.conteiner{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.ul{
+    color: white;
+    background-color:black;
+    border: solid gray;
+}
+.cup{
+    color: white;
+    background-color: yellow;
+    border: solid black;
+    -webkit-text-stroke: 1px black
+}
+.ca{
+    color: white;
+    background-color: darkblue;
+    border: solid black;
+    -webkit-text-stroke: 0.5px black
+}
+.Peak{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.v1{
+    width: 200px;
+  height: 200px;
+}
+.cuphead{
+    width: 200px;
+  height: 200px;
+}
+.red{
+    width: 200px;
+  height: 200px;
+}
